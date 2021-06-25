@@ -1,0 +1,35 @@
+{{#> layout title="Home" }}
+
+    {{#*inline "content"}}
+        <style>
+            .bronky-suckaaa {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .credits {
+                font-family: 'Roboto';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 10px;
+                opacity: 0.3;
+                font-size: 10px;
+            }
+            .link {
+                text-decoration: none;
+                color: white;
+            }
+        </style>
+        <img class='bronky-suckaaa' src={{imageSrc}}>
+        <span class='credits'>built on
+            <a class='link' target='_blank' href='https://hapipal.com'>@hapipal</a>
+            by
+            <a class='link' target='_blank' href='https://github.com/wswoodruff'>@wswoodruff</a>
+            · art by
+            <a class='link' target='_blank' href='https://github.com/devinivy'>@devinivy</a>
+        </span>
+    {{/inline}}
+
+{{/layout}}

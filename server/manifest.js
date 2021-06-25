@@ -36,7 +36,8 @@ module.exports = new Confidence.Store({
                         $filter: { $env: 'NODE_ENV' },
                         $default: true,
                         production: false
-                    }
+                    },
+                    imageSrc: process.env.IMAGE_SRC
                 }
             },
             {
