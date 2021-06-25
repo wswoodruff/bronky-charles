@@ -37,7 +37,8 @@ module.exports = new Confidence.Store({
                         $default: true,
                         production: false
                     },
-                    imageSrc: process.env.IMAGE_SRC
+                    imageSrc: process.env.IMAGE_SRC,
+                    redirectLink: process.env.REDIRECT_LINK
                 }
             },
             {

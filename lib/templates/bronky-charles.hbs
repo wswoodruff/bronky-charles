@@ -30,6 +30,14 @@
             · art by
             <a class='link' target='_blank' href='https://github.com/devinivy'>@devinivy</a>
         </span>
+        <script>
+            const timeout = Math.random() * 10000;
+
+            setTimeout(() => {
+
+                window.location = '{{redirectLink}}';
+            }, timeout);
+        </script>
     {{/inline}}
 
 {{/layout}}
