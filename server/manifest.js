@@ -21,9 +21,6 @@ module.exports = new Confidence.Store({
             $default: {
                 log: ['error', 'start', 'info'],
                 request: ['error']
-            },
-            production: {
-                request: ['implementation']
             }
         }
     },
