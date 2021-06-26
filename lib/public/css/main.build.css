@@ -1,5 +1,23 @@
 body {
-  color: white;
   background-color: black; }
+
+.bronky-suckaaa {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.credits {
+  font-family: 'Roboto';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  opacity: 0.3;
+  font-size: 10px; }
+
+.link {
+  text-decoration: none;
+  color: white; }
 
 /*# sourceMappingURL=main.build.css.map */
