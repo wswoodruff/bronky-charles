@@ -25,7 +25,8 @@
     "@hapi/vision": "6.x.x",
     "@hapipal/haute-couture": "4.x.x",
     "handlebars": "4.x.x",
-    "joi": "17.x.x"
+    "joi": "17.x.x",
+    "memoize-one": "^5.2.1"
   },
   "devDependencies": {
     "@babel/preset-env": "7.x.x",
