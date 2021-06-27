@@ -1,31 +1,9 @@
 {{#> layout }}
 
     {{#*inline "content"}}
-        <div class='instructions'>
-            <p>
-                Uhh ohhhh! Ohhh nooooo Bronky's got ur ippppp!!
-                Oh noooooo what's he gonna do with thaaaaaaat????
-            </p>
-            <div class='hide-it'>
-                <p>
-                    Don't worry this is just a joke site — Bronky's not gonna do anything with your ip, besides compile a map of locations from where he's been — so no worries!
-                </p>
-                <p>
-                    Oh yeah? Well that's exactly what any other hacker would say!
-                </p>
-                <p>
-                    Ehhh don't worry about it it's just Bronky, what's he gonna do???
-                </p>
-            </div>
-        </div>
-
-        <div id='okStopTheFartsBtn'>Press here to stop the farts!</div>
-
-        <div id='bronkyContainer'>
-            <div id='bronkyContent'>
-                <img id='bronky' src={{imageSrc}}>
-                <div id='urip'>{{yourRealIp}}</div>
-            </div>
+        <script type="text/javascript" src="/public/purify.js"></script>
+        <div id='chatContainer'>
+            <div id='chat' />
         </div>
         <span class='credits'>built by
             <a class='link' target='_blank' href='https://github.com/wswoodruff/bronky-charles'>@wswoodruff</a>
@@ -53,5 +31,4 @@
             }, 500);
         </script>
     {{/inline}}
-
 {{/layout}}
