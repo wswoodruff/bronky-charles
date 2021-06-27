@@ -1,16 +1,32 @@
+html,
 body {
     // color: white;
     background-color: black;
+    font-family: 'Courier New';
 }
-
-.bronky-suckaaa {
+.instructions {
+    color: white;
+    opacity: 0.5;
+}
+.hide-it {
+    color: black;
+}
+#bronkyContainer {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+#bronkyContent {
+    position: relative;
+}
+#urip {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+}
 .credits {
-    font-family: 'Roboto';
     position: absolute;
     bottom: 0;
     right: 0;

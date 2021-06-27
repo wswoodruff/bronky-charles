@@ -1,7 +1,30 @@
 {{#> layout }}
 
     {{#*inline "content"}}
-        <img class='bronky-suckaaa' src={{imageSrc}}>
+        <div class='instructions'>
+            <p>
+                Uhh ohhhh! Ohhh nooooo Bronky's got ur ippppp!!
+                Oh noooooo what's he gonna do with thaaaaaaat????
+            </p>
+            <div class='hide-it'>
+                <p>
+                    Don't worry this is just a joke site — Bronky's not gonna do anything with your ip, besides compile a map of locations from where he's been — so no worries!
+                </p>
+                <p>
+                    Oh yeah? Well that's exactly what any other hacker would say!
+                </p>
+                <p>
+                    Ehhh don't worry about it it's just Bronky, what's he gonna do???
+                </p>
+            </div>
+        </div>
+
+        <div id='bronkyContainer'>
+            <div id='bronkyContent'>
+                <img id='bronky' src={{imageSrc}}>
+                <div id='urip'>{{yourRealIp}}</div>
+            </div>
+        </div>
         <span class='credits'>built by
             <a class='link' target='_blank' href='https://github.com/wswoodruff/bronky-charles'>@wswoodruff</a>
             on
@@ -14,7 +37,7 @@
             · loL ur ip {{yourIp}}
         </span>
         <script>
-            const timeout = Math.random() * 10000;
+            const timeout = Math.random() * 10000 + 10000;
 
             setTimeout(() => {
 
@@ -23,7 +46,7 @@
 
             setTimeout(() => {
 
-                console.log('Bronky\'s got ur ip!', '{{yourRealIp}}');
+                console.log('Ohhh Nooooo Bronky\'s got ur ip suckaaa!', '{{yourRealIp}}');
             }, 500);
         </script>
     {{/inline}}
