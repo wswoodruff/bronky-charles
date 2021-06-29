@@ -1,5 +1,6 @@
 html,
 body {
+  padding: 5px 12px;
   color: black;
   background-color: black;
   font-family: 'Courier New';
