@@ -60,19 +60,10 @@
             · loL ur ip {{yourIp}}
         </span>
         <script>
-            const timeout = Math.random() * 10000 + 10000;
-
-            setTimeout(() => {
-
-                // Instead of automatically redirecting, we'll just add a link to meet his brother
-                // window.location = '{{redirectLink}}';
-            }, timeout);
-
             setTimeout(() => {
 
                 console.log('Ohhh Nooooo Bronky\'s got ur ip suckaaa!', '{{yourRealIp}}');
             }, 500);
         </script>
     {{/inline}}
-
 {{/layout}}
